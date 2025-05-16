@@ -17,6 +17,7 @@ Clean and responsive web interface using Streamlit
 AI-powered backend using Gemini 2.0 Flash model
 
 ## Technologies Used
+
 Python for backend logic
 
 Streamlit for the web interface
@@ -24,6 +25,7 @@ Streamlit for the web interface
 Google Generative AI (Gemini) for text processing
 
 ## Installation
+
 Clone the repository:
 
 
@@ -31,17 +33,18 @@ git clone https://github.com/ayushiraut01/Grammar-Spelling-Corrector-Chat-bot
 
 cd grammar-corrector-chatbot
 
-#### Create and activate a virtual environment:
+## Create and activate a virtual environment:
 
 
 python -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 
-### Install dependencies:
+## Install dependencies:
+
 
 pip install -r requirements.txt
 
-### Set up your Google API key:
+## Set up your Google API key:
 
 ### Open the app.py file and replace:
 
@@ -54,7 +57,7 @@ Run the Streamlit app:
 
 
 streamlit run app.py
-### Use the web interface:
+## Use the web interface:
 
 Enter a story or paragraph into the text area.
 
@@ -62,7 +65,7 @@ Click on "Submit & Correct".
 
 View both the original and corrected text in the interface.
 
-### Future Enhancements
+## Future Enhancements
 Downloadable corrected text
 
 Multi-language support
@@ -73,13 +76,13 @@ Grammar explanation tooltips
 
 Mobile-friendly UI
 
-### Contributing
+## Contributing
 Contributions are welcome!
 Feel free to fork the repository and submit a pull request with new features or bug fixes.
 
-### License
+## License
 This project is licensed under the MIT License.
 
-### Author
+## Author
 Ayushi Raut 
 GitHub Repository:[ https://github.com/your-username/grammar-corrector-chatbot](https://github.com/ayushiraut01/Grammar-Spelling-Corrector-Chat-bot)
