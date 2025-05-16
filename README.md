@@ -4,23 +4,33 @@ This is a simple web-based chatbot application built with Streamlit and Google G
 
  Features
  Easy-to-use web interface for grammar correction
+ 
  AI-powered corrections using Google Gemini (Gemini 2.0 Flash model)
+ 
 Instant results with corrected text displayed alongside original
+
 API key integration for secure usage of Google AI models
 
  Getting Started
 1. Clone the Repository
 
 git clone https://github.com/your-username/grammar-corrector-chatbot.git
+
 cd grammar-corrector-chatbot
+
 2. Install Required Packages
 Make sure you have Python 3.7+ installed. Then run:
+
 pip install streamlit google-generativeai
-3. Set Up Google Generative AI
+
+4. Set Up Google Generative AI
 Go to Google AI Studio to get your API key.
+
 Replace the placeholder in the script with your actual API key:
+
 genai.configure(api_key="YOUR_API_KEY_HERE")
-4. Run the App
+
+6. Run the App
 streamlit run app.py
 The app will launch in your default browser at http://localhost:8501.
 
@@ -32,9 +42,11 @@ The response from Gemini is parsed and shown as corrected output.
  Dependencies
 streamlit
 google-generativeai
+
 You can optionally create a requirements.txt file:
 streamlit
 google-generativeai
+
 License
 This project is open-source and available under the MIT License.
 
