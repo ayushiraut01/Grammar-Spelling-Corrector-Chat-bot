@@ -85,4 +85,4 @@ This project is licensed under the MIT License.
 
 ## Author
 Ayushi Raut 
-GitHub Repository:[ https://github.com/your-username/grammar-corrector-chatbot](https://github.com/ayushiraut01/Grammar-Spelling-Corrector-Chat-bot)
+GitHub Repository:https://github.com/ayushiraut01/Grammar-Spelling-Corrector-Chat-bot
